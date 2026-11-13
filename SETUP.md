@@ -109,7 +109,7 @@ Expected: the log contains the hello message. Notes:
 
 ```bash
 cd ~/work
-git clone https://github.com/riscv-software-src/riscv-isa-sim
+git clone --recursive https://github.com/riscv-software-src/riscv-isa-sim
 cd riscv-isa-sim
 mkdir build && cd build
 ../configure --prefix=$HOME/tools/spike
